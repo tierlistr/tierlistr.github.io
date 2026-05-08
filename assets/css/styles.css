@@ -443,6 +443,25 @@ code {
   margin: 8px 0 0;
 }
 
+.app-store-badge-link {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
+.app-store-badge-link:hover {
+  transform: translateY(-1px);
+  opacity: 0.94;
+}
+
+.app-store-badge {
+  display: block;
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+}
+
 .hero-glyph {
   display: block;
   line-height: 0.9;
