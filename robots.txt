@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://julesian.github.io/TierListr-Web/sitemap.xml
+Sitemap: https://tierlistr.github.io/sitemap.xml

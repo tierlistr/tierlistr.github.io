@@ -3,36 +3,101 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TierListr | Your Anything Ranked.</title>
+    <title>TierListr - Tier List Maker App for iOS</title>
     <meta
       name="description"
-      content="TierListr is a polished iPhone app for creating, organizing, and sharing beautiful tier lists."
+      content="TierListr is an iOS tier list maker app for creating, ranking, customizing, and sharing tier lists for games, food, movies, books, hobbies, and more."
     >
+    <link rel="canonical" href="https://tierlistr.github.io/">
+    <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#111315">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="TierListr">
-    <meta property="og:title" content="TierListr | Your Anything Ranked.">
+    <meta property="og:title" content="TierListr - Tier List Maker App for iOS">
     <meta
       property="og:description"
-      content="TierListr is a polished iPhone app for creating, organizing, and sharing beautiful tier lists."
+      content="TierListr is an iOS tier list maker app for creating, ranking, customizing, and sharing tier lists for games, food, movies, books, hobbies, and more."
     >
-    <meta property="og:url" content="https://julesian.github.io/TierListr-Web/">
-    <meta property="og:image" content="https://julesian.github.io/TierListr-Web/assets/images/app/img_og_thumbnail.png">
-    <meta property="og:image:secure_url" content="https://julesian.github.io/TierListr-Web/assets/images/app/img_og_thumbnail.png">
+    <meta property="og:url" content="https://tierlistr.github.io/">
+    <meta property="og:image" content="https://tierlistr.github.io/assets/images/app/img_og_thumbnail.png">
+    <meta property="og:image:secure_url" content="https://tierlistr.github.io/assets/images/app/img_og_thumbnail.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta
       property="og:image:alt"
-      content="TierListr preview showing polished tier-list screens on iPhone."
+      content="TierListr tier list maker app preview"
     >
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="TierListr | Your Anything Ranked.">
-    <meta
-      name="twitter:description"
-      content="TierListr is a polished iPhone app for creating, organizing, and sharing beautiful tier lists."
-    >
-    <meta name="twitter:image" content="https://julesian.github.io/TierListr-Web/assets/images/app/img_og_thumbnail.png">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "TierListr",
+        "alternateName": [
+          "TierListr App",
+          "TierListr iOS",
+          "TierListr Tier List Maker"
+        ],
+        "url": "https://tierlistr.github.io/"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "TierListr",
+        "applicationCategory": "LifestyleApplication",
+        "operatingSystem": "iOS",
+        "url": "https://tierlistr.github.io/",
+        "downloadUrl": "https://apps.apple.com/us/app/tierlistr/id6762039579",
+        "description": "TierListr is an iOS tier list maker app for creating, ranking, customizing, and sharing tier lists.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is TierListr?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "TierListr is an iOS tier list maker app for creating, ranking, customizing, and sharing tier lists."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you spell TierListr?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The app name is spelled TierListr."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is TierListr available on iPhone?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. TierListr is available on iOS through the App Store."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What can I rank with TierListr?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can rank games, movies, food, books, hobbies, coffee picks, recipes, and almost anything else."
+            }
+          }
+        ]
+      }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -98,15 +163,16 @@
             <div class="hero-actions">
               <a
                 class="app-store-badge-link"
-                href="https://apps.apple.com/ph/app/tierlistr/id6762039579"
+                href="https://apps.apple.com/us/app/tierlistr/id6762039579"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Download TierListr on the App Store"
+                title="TierListr on the App Store"
               >
                 <img
                   class="app-store-badge"
                   src="assets/marketing/download-on-the-app-store.svg"
-                  alt="Download on the App Store"
+                  alt="Download TierListr on the App Store"
                   width="180"
                   height="60"
                 />
@@ -122,7 +188,7 @@
             <div class="feature-intro-art" data-reveal data-parallax>
               <img
                 src="assets/images/img_list_headline_dark.png"
-                alt="TierListr artwork used as a subtle background accent"
+                alt="TierListr app artwork"
               >
             </div>
             <div class="feature-panel-copy reveal-sequence" data-reveal>
@@ -149,7 +215,7 @@
             <div class="feature-panel-media reveal-surface" data-reveal>
               <img
                 src="assets/images/app/img_drag_drop.png"
-                alt="TierListr showing the drag and drop ranking flow"
+                alt="TierListr iOS app screenshot showing drag and drop ranking flow"
               >
             </div>
           </article>
@@ -169,7 +235,7 @@
             <div class="feature-panel-media reveal-surface" data-reveal>
               <img
                 src="assets/images/app/img_preview.png"
-                alt="TierListr showing presentation-ready list previews"
+                alt="TierListr tier list maker app preview"
               >
             </div>
           </article>
@@ -189,7 +255,7 @@
             <div class="feature-panel-media reveal-surface" data-reveal>
               <img
                 src="assets/images/app/img_customizable.png"
-                alt="TierListr showing customization options"
+                alt="TierListr iOS app screenshot showing customization options"
               >
             </div>
           </article>
